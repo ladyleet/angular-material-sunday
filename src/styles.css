@@ -4,5 +4,36 @@
 @import '~@angular/material/core/theming/prebuilt/indigo-pink.css';
 
 body {
- font-family: Roboto, sans-serif;
+    font-family: Roboto, sans-serif;
  }
+
+.primary-color {
+    color: #3F51B5!important;
+  }
+.accent-color {
+    color: #FF4081!important;
+  }
+
+.background-primary-color {
+    background-color: #3F51B5!important;
+  }
+
+.background-accent-color {
+    background-color: #FF4081!important;
+  }
+
+.white-text {
+    color: #FFF!important;
+}
+
+.margin-top-20 {
+    margin-top: 20px;
+}
+
+.margin-20 {
+    margin: 20px;
+}
+
+.center-text {
+    text-align: center;
+}

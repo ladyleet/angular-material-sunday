@@ -1,11 +1,149 @@
-<h1>
-  {{title}}
-</h1>
 
- <div>
-    <a md-button color="primary">Flat button</a>
-    <a md-raised-button color="accent">Raised button</a>
-    <a md-fab color="primary"><md-icon>check</md-icon></a>
-    <a md-mini-fab color="primary"><md-icon>check</md-icon></a>
+<div class="center-text">
+
+  <h1 class="primary-color">
+    md-button
+  </h1>
+
+  <div class="margin-20">
+    <button md-button>I'm a basic generic button</button>
   </div>
+
+  <div class="margin-20">
+    <button md-button color="primary">I'm a basic button with 
+    color="primary"</button>
+  </div>
+
+  <div class="margin-20">
+    <button md-button class="background-primary-color white-text">I'm    
+    a basic button with a custom css. background primary color and 
+    white text.</button>
+  </div>
+
+  <h1 class="primary-color">
+    md-raised-button
+  </h1>
+
+  <div class="margin-20">
+    <button md-raised-button>md-raised-button</button>
+  </div>
+
+  <div class="margin-20">
+    <button md-raised-button color="primary">md-raised-button with color="primary"</button>
+  </div>
+
+  <h1 class="primary-color">
+    md-fab &amp; md-min-fab
+  </h1>
+
+  <div class="margin-20">
+    <button md-fab><md-icon class="white-text">accessibility</md-icon></button>
+  </div>
+
+  <div class="margin-20">
+    <button md-mini-fab><md-icon class="white-text">accessibility</md-icon></button>
+  </div>
+
+  <h1 class="primary-color">
+    md-icon-button
+  </h1>
+
+  <div>
+    <button md-icon-button><md-icon>accessibility</md-icon></button>
+  </div>
+
+  <h1 class="primary-color">
+    md-button-toggle
+  </h1>
+
+  <div>
+    <md-button-toggle>md-button-toggle</md-button-toggle> 
+  </div>
+
+  <h1 class="primary-color">Chips</h1>
+
+  <div class="margin-top-20">
+    <md-chip-list>
+      <md-basic-chip>md-basic-chip 1</md-basic-chip>
+      <md-basic-chip>md-basic-chip 2</md-basic-chip>
+      <md-basic-chip>md-basic-chip 3</md-basic-chip>
+    </md-chip-list>
+  </div>
+
+  <div class="margin-top-20">
+    <md-chip-list>
+      <md-chip class="margin-20"> md-chip</md-chip>
+      <md-chip class="margin-20 background-primary-color white-text">md-chip background primary color white text</md-chip>
+      <md-chip class="margin-20" color="primary" selected="true">md-chip color="primary" selected="true"</md-chip>
+      <md-chip class="margin-20" color="accent" selected="true">md-chip color="accent" selected="true"</md-chip>  
+      <md-chip class="margin-20" color="warn" selected="true">md-chip color="warn" selected="true"</md-chip>
+    </md-chip-list>
+  </div>
+
+  <h1 class="primary-color">
+    Progress Spinner
+  </h1>
+
+  <div class="margin-top-20">
+    <md-progress-spinner mode="indeterminate"></md-progress-spinner>
+    <md-progress-spinner mode="indeterminate" color="accent"></md-progress-spinner>
+    <md-progress-spinner mode="indeterminate" color="warn"></md-progress-spinner>
+  </div>
+
+  <div class="margin-top-20">
+    <md-progress-spinner mode="determinate" value="25"></md-progress-spinner>
+    <md-progress-spinner mode="determinate" value="50" color="accent"></md-progress-spinner>
+    <md-progress-spinner mode="determinate" value="75" color="warn"></md-progress-spinner>
+  </div>
+
+  <h1 class="primary-color">
+    Progress Bar
+  </h1>
+
+  <h3 class="primary-color">
+    Determinate
+  </h3>
+
+  <div class="margin-top-20">
+    <md-progress-bar
+        color="accent"
+        mode="determinate"
+        value="33">
+    </md-progress-bar>
+  </div>
+
+  <h3 class="primary-color">
+    Indeterminate
+  </h3>
   
+  <div class="margin-top-20">
+    <md-progress-bar
+        color="accent"
+        mode="indeterminate">
+    </md-progress-bar>
+  </div>
+
+  <h3 class="primary-color">
+    Buffer
+  </h3>
+  
+  <div class="margin-top-20">
+    <md-progress-bar
+        color="accent"
+        mode="buffer"
+        bufferValue="40">
+    </md-progress-bar>
+  </div>
+
+  <h3 class="primary-color">
+    Query
+  </h3>
+  
+  <div class="margin-top-20">
+    <md-progress-bar
+        color="accent"
+        mode="query">
+    </md-progress-bar>
+  </div>
+
+</div>
